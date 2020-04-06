@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.6.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.codeforge</groupId>
+	<artifactId>testing-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>testing-demo</name>
+	<description>Demo project for testing using JUnit, Mockito, PowerMock</description>
+
+	<properties>
+		<java.version>11</java.version>
+		<powermock.version>2.0.7</powermock.version>
+		<maven-surfire-plugin.version>2.22.0</maven-surfire-plugin.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<!--			# spring-boot-starter-test includes junit-jupiter-->
+			<!--			# spring-boot-starter-test also includes mockito-core-->
+			<!--			IMPORTANT: PowerMock extends Mockito or EasyMock library; PowerMock does not support JUnit5 (so far);
+							To be able to run PowerMock tests (PowerMockito runner) or Mockito tests with Mockito
+							annotations via maven-surfire-plugin, it is necessary to include JUnit Vintage library
+							(as it is used as engine for JUnit4 and earlier tests), or to run tests by using JUnit4;
+							This means, if we want to use explicitly JUnit5 library we have to take care about including necessary
+							dependencies-->
+			<!--			# if we don't need junit3 or junit4, exclude JUnit4 support for previous versions-->
+			<!--			<exclusions>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.junit.vintage</groupId>-->
+			<!--					<artifactId>junit-vintage-engine</artifactId>-->
+			<!--				</exclusion>-->
+			<!--			</exclusions>-->
+		</dependency>
+		<dependency>
+			<!--			even though in documentation says that powermock-module-junit4 supports JUnit 4.4 or above, it is
+			actually not true. It supports only 4.X versions above 4.4, not 5.X versions!!! PowerMock still relay on JUnit4
+			read IMPORTANT part of previous comments-->
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-module-junit4</artifactId>
+			<version>${powermock.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-api-mockito2</artifactId>
+			<version>${powermock.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<!--			support for running unit tests with maven-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surfire-plugin.version}</version>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

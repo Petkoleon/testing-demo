@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f92d89b0-666c-41fb-b5ed-5795139ac196" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeforge/testingdemo/DependencyStaticClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeforge/testingdemo/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codeforge/testingdemo/DemoClassPowerMockPrivateMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codeforge/testingdemo/DemoClassPowerMockStaticMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeforge/testingdemo/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeforge/testingdemo/DemoClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeforge/testingdemo/DependencyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeforge/testingdemo/DependencyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codeforge/testingdemo/DemoClassPowerMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codeforge/testingdemo/DemoClassPowerMockTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZzcY5hpQiZ2Mg7kbg4GY9TQcDD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codeforge.testingdemo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DemoClassPowerMockStaticMethodTest">
+    <configuration name="DemoClassPowerMockStaticMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeforge.testingdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeforge.testingdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.codeforge.testingdemo.DemoClassPowerMockStaticMethodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoClassPowerMockStaticMethodTest.staticVoidMethodMockingThrowError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeforge.testingdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeforge.testingdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.codeforge.testingdemo.DemoClassPowerMockStaticMethodTest" />
+      <option name="METHOD_NAME" value="staticVoidMethodMockingThrowError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoClassPowerMockStaticMethodTest.staticVoidMethodMockingThrowErrorMessageChecked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeforge.testingdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeforge.testingdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.codeforge.testingdemo.DemoClassPowerMockStaticMethodTest" />
+      <option name="METHOD_NAME" value="staticVoidMethodMockingThrowErrorMessageChecked" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoClassPowerMockStaticMethodTest.staticVoidMethodMockingThrowErrorMessageChecked1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeforge.testingdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeforge.testingdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.codeforge.testingdemo.DemoClassPowerMockStaticMethodTest" />
+      <option name="METHOD_NAME" value="staticVoidMethodMockingThrowErrorMessageChecked1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoClassPowerMockStaticMethodTest.testPublicMethodNoArgsWithDependencyReturningStringMockedStaticDependencyMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeforge.testingdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeforge.testingdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.codeforge.testingdemo.DemoClassPowerMockStaticMethodTest" />
+      <option name="METHOD_NAME" value="testPublicMethodNoArgsWithDependencyReturningStringMockedStaticDependencyMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="testing-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codeforge.testingdemo.TestingDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoClassPowerMockStaticMethodTest" />
+        <item itemvalue="JUnit.DemoClassPowerMockStaticMethodTest.staticVoidMethodMockingThrowErrorMessageChecked1" />
+        <item itemvalue="JUnit.DemoClassPowerMockStaticMethodTest.staticVoidMethodMockingThrowErrorMessageChecked" />
+        <item itemvalue="JUnit.DemoClassPowerMockStaticMethodTest.testPublicMethodNoArgsWithDependencyReturningStringMockedStaticDependencyMethod" />
+        <item itemvalue="JUnit.DemoClassPowerMockStaticMethodTest.staticVoidMethodMockingThrowError" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f92d89b0-666c-41fb-b5ed-5795139ac196" name="Default Changelist" comment="" />
+      <created>1585845408008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585845408008</updated>
+      <workItem from="1585845410823" duration="31705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/codeforge/testingdemo/DemoClassPowerMockStaticMethodTest.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/codeforge/testingdemo/DemoClassPowerMockStaticMethodTest.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codeforge/testingdemo/DemoClass.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar!/org/junit/jupiter/api/Assertions.class</url>
+          <line>573</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
